@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Best effort to ensure az is in PATH
+source ~/.bashrc
+
+# Test that az is reasonably setup
+az account show > /dev/null 2>&1 || exit
+
+# Get daily recommendations
+az advisor recommendation list > /run/aotd.json 2>&1
