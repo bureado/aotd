@@ -1,0 +1,13 @@
+Source: aotd
+Section: unknown
+Priority: optional
+Maintainer: Jose Miguel Parrella <j@bureado.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/bureado/aotd
+
+Package: aotd
+Architecture: all
+Depends: ${misc:Depends}, python-requests
+Description: Azure Advisor-powered MOTDs
+ TODO.

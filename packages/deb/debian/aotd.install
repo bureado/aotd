@@ -1,0 +1,3 @@
+aotd /usr/local/bin/aotd
+aotd-cron /etc/cron.daily/aotd
+aotd-motd-updater /etc/update-cron.d/99-aotd
