@@ -3,6 +3,9 @@
 # Best effort to ensure az is in PATH
 source ~/.bashrc
 
+# Desperate effort to ensure az is in PATH
+PATH=$PATH:/root/bin
+
 # Test that az is reasonably setup
 az account show > /dev/null   || exit
 
