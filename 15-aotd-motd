@@ -10,4 +10,4 @@ PATH=$PATH:/root/bin
 az account show > /dev/null   || exit
 
 echo
-cat /run/aotd.json | aotd
+aotd /run/aotd.json
